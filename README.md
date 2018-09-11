@@ -59,7 +59,7 @@ The typical the install time, including all packages, does not exceed 30 minutes
 To start the TrackerLab run the script: TrackerLab.py
 To open a data file click the 'Open' button and located the 'Set1_001_video.tdms' in the [Data](./Data) directory.  
 
-![alt text](https://github.com/MolecularNanophotonics/TTT/blob/master/Screenshots/Screenshot-01.PNG)
+![Screenshot](https://github.com/MolecularNanophotonics/TTT/blob/master/Images/Screenshot.PNG)
 
 This is a custom TDMS file used to store data with our custom LabVIEW image aquisistion containing the image data and some metadata 
 Beside these TDMS file the software also supports stacked TIFF files for general use.
