@@ -39,7 +39,7 @@ Linux:
 
 ## Installation Guide
 
-The software requires the [Anaconda](https://www.anaconda.com/download/) framework with Python 3.6 to be installed. 
+The software requires the [Anaconda](https://www.anaconda.com/download/) framework with Python 3.* to be installed. 
 
 ### Required Packages:
 
@@ -63,6 +63,7 @@ Beside these TDMS files the software also supports stacked TIFF files for genera
   
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
 In the tracking tab the parameters for the connected-componente labeling can be adjusted.
-To run the tracking algorithm for all frames and files selected click the `Batch` button. The tracking data will be stored in a CSV or HDF5 file depending on the 'Settings'.
+To run the tracking algorithm for all frames and selected files click the `Batch` button. The tracking data will be stored in a CSV or HDF5 file depending on the `Settings`.
+Typically, the processing of 1000 frames takes about 15 s.
 
 
