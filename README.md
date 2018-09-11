@@ -31,7 +31,7 @@ The framework requires a standard computer with about 2 GB of RAM.
 
 ### Software Requirements
 
-This package is supported for Windows, Mac OS and Linux. The package has been tested on the following systems:
+The software is supported for Windows, Mac OS and Linux. The software has been tested on the following systems:
 
 Windows: 10  
 Mac OS: 10.12  
