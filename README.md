@@ -11,26 +11,26 @@
 - [License](./LICENSE)
 
 
-# Discription
+## Discription
 
 This repository provides a framework for the tracking and the data analysis of single amyloid fibrils in a thermophoretic trap. 
 Within the framework the [TrackerLab](./TrackerLab) implements a GUI for the image processing and tracking of single amyloid fibrils. 
 The directory [Notebooks](./Notebooks) contains a collection of Jupyter Notebooks for the data analysis.  
 
-# Repository Contents
+## Repository Contents
 
 - [TrackerLab](./TrackerLab): A graphical user interface for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
 - [Data](./Data): A small dataset to demonstate the framework.
 - [Notebooks](./Notebooks): Collection of Juypter Notebooks for the data analysis.
 
 
-# System Requirements
+## System Requirements
 
-## Hardware Requirements
+### Hardware Requirements
 
 The framework requires a standard computer with about 2 GB of RAM.
 
-## Software Requirements
+### Software Requirements
 
 This package is supported for Windows, Mac OS and Linux. The package has been tested on the following systems:
 
@@ -38,11 +38,11 @@ Windows: 10
 Mac OS: 10.12  
 Linux:   
 
-# Installation Guide
+## Installation Guide
 
 The software requires the [Anaconda](https://www.anaconda.com/download/) framework with Python 3.6 to be installed. 
 
-## Required Packages:
+### Required Packages:
 
 The following packages are required:
 
@@ -54,7 +54,7 @@ To install the packages open the Anaconda Prompt and type: pip install "package"
 
 The typical the install time, including all packages, does not exceed 30 minutes.
 
-# Instructions for Use
+## Instructions for Use
 
 To start the TrackerLab run the script: TrackerLab.py
 To open a data file click the 'Open' button and located the 'Set1_001_video.tdms' in the [Data](./Data) directory.  
