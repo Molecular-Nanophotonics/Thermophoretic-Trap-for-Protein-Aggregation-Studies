@@ -1,4 +1,4 @@
-# TrackerLab for Thermophoretic Trapping (TLTT)
+# Tracking and Step Size Analysis Single Amyloid Fibril in a Thermophoretic Trap
 
 ## Contents
 
@@ -13,8 +13,8 @@
 
 # Discription
 
-This repository provides a framework for the tracking and data analysis of single amyloid fibrils in a thermophoretic trap. 
-Within the framework the [TrackerLab](./NTrackerLab) implements a GUI for the image processing and tracking of single amyloid fibrils. 
+This repository provides a framework for the tracking and the step size analysis of single amyloid fibrils in a thermophoretic trap. 
+Within the framework the [TrackerLab](./TrackerLab) implements a GUI for the image processing and tracking of single amyloid fibrils. 
 The directory [Notebooks](./Notebooks) contains a collection of Jupyter Notebooks for the data analysis.  
 
 # Repository Contents
@@ -52,13 +52,14 @@ The following packages are required:
 
 To install the packages open the Anaconda Prompt and type: pip install "package"
 
-Typically the install time, including all packages, does not exceed 45 minutes.
+The typical the install time, including all packages, does not exceed 30 minutes.
 
 # Instructions for Use
 
 To start the TrackerLab run the script: TrackerLab.py
 To open a data file click the 'Open' button and located the 'Set1_001_video.tdms' in the [Data](./Data) directory.  
 
+[[https://github.com/MolecularNanophotonics/TTT/blob/master/Images/Screenshot-01.png]]
 
 This is a custom TDMS file used to store data with our custom LabVIEW image aquisistion containing the image data and some metadata 
 Beside these TDMS file the software also supports stacked TIFF files for general use.
