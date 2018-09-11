@@ -66,4 +66,6 @@ In the tracking tab the parameters for the connected-componente labeling can be 
 To run the tracking algorithm for all frames and selected files click the `Batch` button. The tracking data will be stored in a CSV or HDF5 file depending on the `Settings`.
 Typically, the processing of 1000 frames takes about 15 s.
 
+## Notebooks
 
+...
