@@ -1,6 +1,6 @@
 # Tracking and Data Analysis of Single Amyloid Fibrils in a Thermophoretic Trap
 
-## Contents
+## Content
 
 - [Discription](#discription)
 - [Repository Contents](#repository-contents)
@@ -17,7 +17,7 @@ This repository provides a framework for the tracking and the data analysis of s
 Within the framework the [TrackerLab](./TrackerLab) implements a GUI for the image processing and tracking of single amyloid fibrils. 
 The directory [Notebooks](./Notebooks) contains a collection of Jupyter Notebooks for the data analysis.  
 
-## Repository Contents
+## Repository Content
 
 - [TrackerLab](./TrackerLab): A graphical user interface for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
 - [Notebooks](./Notebooks): Collection of Juypter Notebooks for the data analysis.
