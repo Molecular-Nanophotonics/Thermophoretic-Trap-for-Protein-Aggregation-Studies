@@ -59,10 +59,12 @@ To open a video file click the `Open` button and located the `Set1_001_video.tdm
 
 ![Screenshot](https://github.com/MolecularNanophotonics/TTT/blob/master/Images/Screenshot.PNG)
 
-This is a custom TDMS file recored with LabVIEW containing the image data and metadata such as the binning and the exposure time.  
-Beside these TDMS file the software also supports stacked TIFF files for general use.  
-In the pre-processing box a media filter and a circular mask can be applied to the image. 
+The `*video.tdms` files are TDMS files recored with LabVIEW containing the image series and metadata such as the binning and the exposure time.
+Beside these TDMS files the software also supports stacked TIFF files for general use.  
+In the pre-processing panel a media filter and a circular mask can be applied to the image.
 In the tracking tab the parameters for the connected-componente labeling can be adjusted.
-To run the tracking . The tracking data will be stored in a CSV or HDF5 depending on the selected setting under 'Settings'.
+To run the tracking algorithm for all frames and files selected click the `Batch` button. The tracking data will be stored in a CSV or HDF5 file depending on the 'Settings'.
 
 ## Notebooks
+
+...
