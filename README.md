@@ -60,6 +60,7 @@ To open a video file click the `Open...` button and located the `Set1_001_video.
 
 The `*video.tdms` files are TDMS files recored with LabVIEW containing the image series and metadata such as the binning and the exposure time.
 Beside these TDMS files the software also supports stacked TIFF files for general use.  
+  
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
 In the tracking tab the parameters for the connected-componente labeling can be adjusted.
 To run the tracking algorithm for all frames and files selected click the `Batch` button. The tracking data will be stored in a CSV or HDF5 file depending on the 'Settings'.
