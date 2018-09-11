@@ -20,7 +20,6 @@ The directory [Notebooks](./Notebooks) contains a collection of Jupyter Notebook
 ## Repository Contents
 
 - [TrackerLab](./TrackerLab): A graphical user interface for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
-- [Data](./Data): A small dataset to demonstate the framework.
 - [Notebooks](./Notebooks): Collection of Juypter Notebooks for the data analysis.
 
 
