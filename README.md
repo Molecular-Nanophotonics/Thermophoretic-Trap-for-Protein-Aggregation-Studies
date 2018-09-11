@@ -34,7 +34,7 @@ The framework requires a standard computer with about 2 GB of RAM.
 
 This package is supported for Windows, Mac OS and Linux. The package has been tested on the following systems:
 
-Windows: 10
+Windows: 10  
 Mac OS: 10.12  
 Linux:   
 
@@ -48,22 +48,21 @@ The following packages are required:
 
 - nptdms
 - pyqtgraph
-- trackpy
-
-To install the packages open the Anaconda Prompt and type: pip install "package"
 
 The typical the install time, including all packages, does not exceed 30 minutes.
 
 ## Instructions for Use
 
-To start the TrackerLab run the script: TrackerLab.py
-To open a data file click the 'Open' button and located the 'Set1_001_video.tdms' in the [Data](./Data) directory.  
+To start the TrackerLab run the script: TrackerLab.py  
+With all required packages installed properly you should see a GUI with most of the controls disabled.  
+To open a video file click the ´Open´ button and located the 'Set1_001_video.tdms' from the sample dataset ... 
 
 ![Screenshot](https://github.com/MolecularNanophotonics/TTT/blob/master/Images/Screenshot.PNG)
 
-This is a custom TDMS file used to store data with our custom LabVIEW image aquisistion containing the image data and some metadata 
+This is a custom TDMS file recored with LabVIEW containing the image data and some metadata 
 Beside these TDMS file the software also supports stacked TIFF files for general use.
 In the pre-processing box a media filter and a circular mask can be applied to the image. 
 In the tracking tab the parameters for the connected-componente labeling can be adjusted.
 To run the tracking . The tracking data will be stored in a CSV or HDF5 depending on the selected setting under 'Settings'.
 
+## Notebooks
