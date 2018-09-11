@@ -54,26 +54,14 @@ The typical the install time, including all packages, does not exceed 30 minutes
 
 To start the TrackerLab run the script: TrackerLab.py  
 With all required packages installed properly you should see a GUI with most of the controls disabled.
+To open a video file click the `Open...` button and located the `Set1_001_video.tdms` from the sample dataset.
 
 ![Screenshot](https://github.com/MolecularNanophotonics/TTT/blob/master/Images/Screenshot.PNG)
 
-<<<<<<< HEAD
 The `*video.tdms` files are TDMS files recored with LabVIEW containing the image series and metadata such as the binning and the exposure time.
 Beside these TDMS files the software also supports stacked TIFF files for general use.  
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
 In the tracking tab the parameters for the connected-componente labeling can be adjusted.
 To run the tracking algorithm for all frames and files selected click the `Batch` button. The tracking data will be stored in a CSV or HDF5 file depending on the 'Settings'.
 
-## Notebooks
 
-...
-=======
-This is a custom TDMS file recored with LabVIEW containing the image data and metadata such as the binning and the exposure time.  
-Beside these TDMS files the software also supports stacked TIFF files for general use. You can open and process multiple files. 
-In the pre-processing box a media filter and a circular mask can be applied to the image. 
-In the tracking tab the parameters for the connected-componente labeling can be adjusted.
-To run the tracking click `Batch` button. 
-The tracking data will be stored in a CSV or HDF5 file depending on the settings selected `Settings`.
-
-## Notebooks
->>>>>>> c8731922db4a6cf64b121df4daaef7764f40280f
