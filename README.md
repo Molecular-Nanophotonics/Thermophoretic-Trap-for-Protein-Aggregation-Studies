@@ -17,6 +17,8 @@ This repository provides a framework for the tracking and the data analysis of s
 Within the framework the [TrackerLab](./TrackerLab) implements a GUI for the image processing and tracking of single amyloid fibrils. 
 The directory [Notebooks](./Notebooks) contains a collection of Jupyter Notebooks for the data analysis.  
 
+A small dataset for demonstration of the software can be downloaded at [https://doi.org/10.5281/zenodo.1414296](https://doi.org/10.5281/zenodo.1414296)
+
 ## Repository Content
 
 - [TrackerLab](./TrackerLab): A graphical user interface for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
