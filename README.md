@@ -64,11 +64,14 @@ Beside these TDMS files the software also supports stacked TIFF files for genera
   
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
 In the tracking tab the parameters for the connected-componente labeling can be adjusted.
-To run the tracking algorithm for all frames and selected files click the `Batch` button. The tracking data will be stored as dataframe in a HDF5 or CSV file depending on the selected `Settings`. The dataframe has the following structure:  
+To run the tracking algorithm for all frames and selected files click the `Batch` button. The tracking data will be stored as a dataframe named `features` in a HDF5 file. The dataframe has the following structure:  
 
-x | y | area
-1 | 2 | 3
+frame | x | y | area | max_intensity | phi | major_axis_length | minor_axis_length 
+--- | --- | ---
+0 | ... | ... | ... | ... | ... | ... | ... 
+1 | ... | ... | ... | ... | ... | ... | ... 
 
+ `Settings`.
 center of mass x and y positions, the area of , the maximum pixel 
 Typically, the processing of 1000 frames takes about 10 s.
 
