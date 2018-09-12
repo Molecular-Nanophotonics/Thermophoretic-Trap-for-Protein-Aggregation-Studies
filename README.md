@@ -23,8 +23,8 @@ A small dataset for demonstration of the framework can be downloaded at:
 ## Repository Content
 
 - [TrackerLab](./TrackerLab): A graphical user interface for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
-- [Notebooks](./Notebooks): Collection of Juypter Notebooks for the data analysis.
-- [COMSOL](./COMSOL): The COMSOL file for the temperature simulation.
+- [Jupyter Notebooks](./Jupyter-Notebooks): Collection of Juypter Notebooks for the data analysis.
+- [COMSOL Files](./COMSOL-Files): The COMSOL file for the temperature simulation.
 
 
 ## System Requirements
