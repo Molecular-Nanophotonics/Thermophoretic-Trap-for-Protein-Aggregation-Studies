@@ -64,22 +64,24 @@ To open a video file click `Open...` and select all `*_video.tdms` in the sample
 
 ![Screenshot](https://github.com/Molecular-Nanophotonics/Thermophoretic-Trap-for-Protein-Aggregation-Studies/blob/master/Images/Screenshot.PNG)
 
-The `*video.tdms` files are TDMS files recored with LabVIEW containing the image series and metadata such as the binning and the exposure time. For more information about the TDMS file format see http://www.ni.com/white-paper/3727/en/   
+The `*video.tdms` files are TDMS files recored with LabVIEW containing the image series and metadata such as the binning and the exposure time. For more information about the TDMS file format see [The NI TDM File Format](http://www.ni.com/white-paper/3727/en/)  
 Beside these TDMS files the software also supports stacked TIFF files for general use.  
   
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
-In the tracking tab the parameters for the connected-componente labeling can be adjusted. For detail on the image processing and fibril tracking see Supplementary Note 7.   
-To run the tracking algorithm for all selected files click `Batch`. The tracking data will be stored as a dataframe named `features` in a HDF5 file. The dataframe has the following structure:  
+In the tracking tab the parameters for the connected-componente labeling can be adjusted. For detail on the image processing and fibril tracking see Supplementary Note 7.  
+
+To run the tracking algorithm for all selected files click `Batch`. The tracking data will be stored as a DataFrame named `features` in a HDF5 file along with the metadata. The DataFrame has the following structure:  
 
 frame | x | y | area | max_intensity | phi | major_axis_length | minor_axis_length 
 --- | --- | --- | --- | --- | --- | --- | ---
 0 | ... | ... | ... | ... | ... | ... | ... 
 1 | ... | ... | ... | ... | ... | ... | ... 
 
- `Settings`.
+Here, `frame` is the frame number, `x` and `y` the center of positions, `area` the number of pixels of the detected feature, `max_intensity` the maximum intentiy, `orientation` the orientation angle of the region ellipse, ranging from -pi/2 to pi/2.
 center of mass x and y positions, the area of , the maximum pixel 
 Typically, the processing of 1000 frames takes about 10 s.
 
+`Settings`
 
 ## Notebooks
 
