@@ -70,16 +70,16 @@ Beside these TDMS files the software also supports stacked TIFF files for genera
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
 In the tracking tab the parameters for the connected-componente labeling can be adjusted. For detail on the image processing and fibril tracking see Supplementary Note 7.  
 
-To run the tracking algorithm for all selected files click `Batch`. The tracking data will be stored as a DataFrame named `features` in a HDF5 file along with the metadata. The DataFrame has the following structure:  
+To run the tracking algorithm for all selected files click `Batch`. Typically, the processing of 1000 frames takes about 10 s. The tracking data will be stored as a DataFrame named `features` in a HDF5 file along with the metadata. The DataFrame has the following structure:  
 
 frame | x | y | area | max_intensity | phi | major_axis_length | minor_axis_length 
 --- | --- | --- | --- | --- | --- | --- | ---
 0 | ... | ... | ... | ... | ... | ... | ... 
 1 | ... | ... | ... | ... | ... | ... | ... 
 
-Here, `frame` is the frame number, `x` and `y` the center of positions, `area` the number of pixels of the detected feature, `max_intensity` the maximum intentiy, `orientation` the orientation angle of the region ellipse, ranging from -pi/2 to pi/2.
-center of mass x and y positions, the area of , the maximum pixel 
-Typically, the processing of 1000 frames takes about 10 s.
+Here, `frame` is the frame number, `x` and `y` the center of mass positions, `area` the number of pixels of the detected region, `max_intensity` the maximum intentiy in the region, `phi` the orientation angle of the region ellipse, ranging from -π/2 to π/2 and `major_axis_length` and `minor_axis_length` the length of the ellipse major and minor axis in pixel.
+
+
 
 `Settings`
 
