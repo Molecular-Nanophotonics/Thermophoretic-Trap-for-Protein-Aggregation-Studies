@@ -80,7 +80,7 @@ frame | x | y | area | max_intensity | orientation | major_axis_length | minor_a
 ```
 frame | x | y | area | max_intensity | orientation | major_axis_length | minor_axis_length 
 ```
-Here, `frame` is the frame number, `x` and `y` the center of mass positions in pixel, `area` the number of pixels of the detected region, `max_intensity` the maximum intentiy in the detected region, `orientation` the angle between the x axis and the major axis of the ellipse fitting the region, ranging from -π/2 to π/2, and `major_axis_length`, `minor_axis_length` the length of the ellipse major and minor axes in pixel.
+Here, `frame` is the frame number, `x` and `y` the center of mass positions in pixel, `area` the number of pixels of the detected region, `max_intensity` the maximum intentiy in the detected region, `orientation` the angle between the x axis and the major axis of the ellipse fitting the region, ranging from $-\pi/2$ to $\pi/2$, and `major_axis_length`, `minor_axis_length` the length of the ellipse major and minor axes in pixel.
 
 
 
