@@ -67,7 +67,7 @@ In the tracking tab the parameters for the connected-componente labeling can be 
 To run the tracking algorithm for all frames and selected files click the `Batch` button. The tracking data will be stored as a dataframe named `features` in a HDF5 file. The dataframe has the following structure:  
 
 frame | x | y | area | max_intensity | phi | major_axis_length | minor_axis_length 
---- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 0 | ... | ... | ... | ... | ... | ... | ... 
 1 | ... | ... | ... | ... | ... | ... | ... 
 
