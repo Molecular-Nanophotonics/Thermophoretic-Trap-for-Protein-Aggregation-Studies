@@ -18,7 +18,7 @@ This is the maintained version of the Supplementary Software for *"Thermophoreti
 This repository containes a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of single amyloid fibrils in a thermophoretic trap. 
 Within this framework the [TrackerLab](./TrackerLab) provides a GUI for the image processing and tracking of single amyloid fibrils. [Jupyter-Notebooks](./Jupyter-Notebooks) contains Jupyter Notebooks for the data analysis. The COMSOL files for the FEM simulation of the temperature distribution are located in [COMSOL](./COMSOL).
 
-A small experimental dataset for demonstration of the software can be downloaded at:  
+A sample dataset for demonstration of the software can be downloaded at:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1414296.svg)](https://doi.org/10.5281/zenodo.1414296)
 
 ## Repository Content
@@ -56,21 +56,20 @@ Typically, the install time of [Anaconda](https://www.anaconda.com/download/) an
 
 ## Instructions for Use
 
-First, download the sample dataset at: 
+First, create a new directory `Data` download the sample dataset at:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1414296.svg)](https://doi.org/10.5281/zenodo.1414296)
 
-Then, run TrackerLab.py    
-With all required packages installed properly you should see a GUI with most of the controls disabled.
+Then, run the TrackerLab.py script. With all packages installed properly you should see a GUI similar to the screenshot below. 
 To open a video file click `Open...` and select all `*_video.tdms` in the sample dataset.
 
 ![Screenshot](https://github.com/Molecular-Nanophotonics/Thermophoretic-Trap-for-Protein-Aggregation-Studies/blob/master/Images/Screenshot.PNG)
 
-The `*video.tdms` files are TDMS files recored with a custom LabVIEW program containing the image series and metadata such as the binning and the exposure time.
+The `*video.tdms` files are TDMS files recored with LabVIEW containing the image series and metadata such as the binning and the exposure time. For more information about the TDMS file format see http://www.ni.com/white-paper/3727/en/   
 Beside these TDMS files the software also supports stacked TIFF files for general use.  
   
 In the pre-processing panel a media filter and a circular mask can be applied to the image.
-In the tracking tab the parameters for the connected-componente labeling can be adjusted.
-To run the tracking algorithm for all frames and selected files click the `Batch` button. The tracking data will be stored as a dataframe named `features` in a HDF5 file. The dataframe has the following structure:  
+In the tracking tab the parameters for the connected-componente labeling can be adjusted. For detail on the image processing and fibril tracking see Supplementary Note 7.   
+To run the tracking algorithm for all selected files click `Batch`. The tracking data will be stored as a dataframe named `features` in a HDF5 file. The dataframe has the following structure:  
 
 frame | x | y | area | max_intensity | phi | major_axis_length | minor_axis_length 
 --- | --- | --- | --- | --- | --- | --- | ---
