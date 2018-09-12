@@ -72,13 +72,10 @@ In the tracking tab the parameters for the connected-componente labeling can be 
 
 To run the tracking algorithm for all selected files click `Batch`. Typically, the processing of 1000 frames takes about 10 s. The tracking data will be stored as a DataFrame named `features` in a HDF5 file along with the metadata. The DataFrame has the following structure:  
 
-frame | x | y | area | max_intensity | orientation | major_axis_length | minor_axis_length 
---- | --- | --- | --- | --- | --- | --- | ---
-0 | ... | ... | ... | ... | ... | ... | ... 
-1 | ... | ... | ... | ... | ... | ... | ... 
-
 ```
-frame | x | y | area | max_intensity | orientation | major_axis_length | minor_axis_length 
+frame   x      y      area    max_intensity   orientation      major_axis_length   minor_axis_length
+0       ...    ...    ...     ...             ...              ...                 ...
+1       ...    ...    ...     ...             ...              ...                 ...
 ```
 Here, `frame` is the frame number, `x` and `y` the center of mass positions in pixel, `area` the number of pixels of the detected region, `max_intensity` the maximum intentiy in the detected region, `orientation` the angle between the x axis and the major axis of the ellipse fitting the region, ranging from $-\pi/2$ to $\pi/2$, and `major_axis_length`, `minor_axis_length` the length of the ellipse major and minor axes in pixel.
 
