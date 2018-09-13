@@ -14,13 +14,13 @@
 
 ## Discription
 
-This is the maintained version of the Supplementary Software for *"Thermophoretic Trap for Single Amyloid Fibril and Protein Aggregation Studies"*. This repository contains a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of single amyloid fibril in a thermophoretic trap. 
+This is the maintained version of the Supplementary Software for *"Thermophoretic Trap for Single Amyloid Fibril and Protein Aggregation Studies"*. This repository contains a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of a single amyloid fibril in a thermophoretic trap. 
 
 ## Repository Content
 
 - [TrackerLab](./TrackerLab): GUI for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
 - [Jupyter-Notebooks](./Jupyter-Notebooks): Juypter Notebooks for the data analysis.
-- [Data](./Data): The directory for the sample dataset (See the [Data Availability](#data-availability) for the download link)
+- [Data](./Data): The directory for the sample dataset (See the [Data Availability](#data-availability) section for the download link)
 - [COMSOL](./COMSOL): COMSOL files for the FEM simulations of the temperature distribution.
 
 ## Data Availability
