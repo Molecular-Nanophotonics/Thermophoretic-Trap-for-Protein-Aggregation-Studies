@@ -81,4 +81,6 @@ Here, `frame` is the frame number, `x` and `y` the center of mass positions in p
 
 ## Jupyter Notebooks
 
-The directory . The ![Step_Size_Analysis.ipynb](https://github.com/Molecular-Nanophotonics/Thermophoretic-Trap-for-Protein-Aggregation-Studies/blob/master/Jupyter-Notebooks/Step_Size_Analysis.ipynb)
+The [Step_Size_Analysis.ipynb](https://github.com/Molecular-Nanophotonics/Thermophoretic-Trap-for-Protein-Aggregation-Studies/blob/master/Jupyter-Notebooks/Step_Size_Analysis.ipynb) demonstate the 
+
+The [Step_Size_Analysis.ipynb](https://github.com/Molecular-Nanophotonics/Thermophoretic-Trap-for-Protein-Aggregation-Studies/blob/master/Jupyter-Notebooks/Temperature_Trap_Time-Dependent.ipynb) loads simulated temperature data and calculates averaged temperature profile.
