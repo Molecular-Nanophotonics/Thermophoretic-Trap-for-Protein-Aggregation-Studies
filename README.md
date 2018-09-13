@@ -4,6 +4,7 @@
 
 - [Discription](#discription)
 - [Repository Contents](#repository-contents)
+- [Data Availability](#data-availability)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Instructions for Use](#instructions-for-use)
@@ -15,17 +16,17 @@
 
 This is the maintained version of the Supplementary Software for *"Thermophoretic Trap for Single Amyloid Fibril and Protein Aggregation Studies"*
 
-This repository containes a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of single amyloid fibrils in a thermophoretic trap. 
-Within this framework the [TrackerLab](./TrackerLab) provides a GUI for the image processing and tracking of single amyloid fibrils. [Jupyter-Notebooks](./Jupyter-Notebooks) contains Jupyter Notebooks for the data analysis. The COMSOL files for the FEM simulation of the temperature distribution are located in [COMSOL](./COMSOL).
-
-A sample dataset for demonstration of the software can be downloaded at:  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1414296.svg)](https://doi.org/10.5281/zenodo.1414296)
+This repository containes a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of single amyloid fibril in a thermophoretic trap. 
 
 ## Repository Content
 
-- [TrackerLab](./TrackerLab): GUI for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
+- [TrackerLab](./TrackerLab): GUI for the image processing and tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
 - [Jupyter-Notebooks](./Jupyter-Notebooks): Juypter Notebooks for the data analysis.
 - [COMSOL](./COMSOL): COMSOL files for the FEM simulations of the temperature distribution.
+
+## Data Availability
+A sample dataset for demonstration of the software can be downloaded at:  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1414296.svg)](https://doi.org/10.5281/zenodo.1414296)
 
 ## System Requirements
 
