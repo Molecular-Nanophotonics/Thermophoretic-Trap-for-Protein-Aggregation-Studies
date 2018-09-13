@@ -14,7 +14,7 @@
 
 ## Discription
 
-This is the maintained version of the Supplementary Software for *"Thermophoretic Trap for Single Amyloid Fibril and Protein Aggregation Studies"*. This repository contains a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of single amyloid fibril in a thermophoretic trap. 
+This is the maintained version of the Supplementary Software for *"Thermophoretic Trap for Single Amyloid Fibril and Protein Aggregation Studies"*. This repository contains a collection of Python scripts and Jupyter Notebooks for the tracking and the data analysis of a single amyloid fibril in a thermophoretic trap. 
 
 ## Repository Content
 
