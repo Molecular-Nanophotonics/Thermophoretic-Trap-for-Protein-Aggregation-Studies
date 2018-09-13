@@ -20,6 +20,7 @@ This is the maintained version of the Supplementary Software for *"Thermophoreti
 
 - [TrackerLab](./TrackerLab): GUI for the tracking of single amyloid fibrils based on the PyQt and PyQtGraph libary.
 - [Jupyter-Notebooks](./Jupyter-Notebooks): Juypter Notebooks for the data analysis.
+- [Data](./Data): The directory for the sample dataset (See the [Data Availability](#data-availability) for the download link)
 - [COMSOL](./COMSOL): COMSOL files for the FEM simulations of the temperature distribution.
 
 ## Data Availability
@@ -56,8 +57,7 @@ Typically, the install time of [Anaconda](https://www.anaconda.com/download/) an
 
 ## Instructions for Use
 
-First, create a new directory `Data` download the sample dataset at:  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1414296.svg)](https://doi.org/10.5281/zenodo.1414296)
+First, download the sample dataset to the `Data` directory. See the [Data Availability](#data-availability) section for the download link.
 
 Then, run the TrackerLab.py script. With all packages installed properly you should see a GUI similar to the screenshot below. 
 To open a video file click `Open...` and select all `*_video.tdms` in the sample dataset.
